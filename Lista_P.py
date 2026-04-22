@@ -1,4 +1,5 @@
 lista_de_produtos = ["iphone", "Redmi", "poco", "fones"]
+print(lista_de_produtos)
 produto_procurado = input("Pesquisar: ").lower()
 
 if produto_procurado in lista_de_produtos:
